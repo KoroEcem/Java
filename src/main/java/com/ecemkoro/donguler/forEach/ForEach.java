@@ -1,4 +1,4 @@
-package com.ecemkoro.donguler;
+package com.ecemkoro.donguler.forEach;
 
 public class ForEach {
   public static void main(String[] args) {

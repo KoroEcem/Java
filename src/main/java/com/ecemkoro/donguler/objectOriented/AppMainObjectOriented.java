@@ -1,4 +1,4 @@
-package com.ecemkoro.donguler;
+package com.ecemkoro.donguler.objectOriented;
 
 public class AppMainObjectOriented {
 
