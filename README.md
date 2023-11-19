@@ -1,2 +1,2 @@
 # Java
-Java Examples
+Included Java Education examples
