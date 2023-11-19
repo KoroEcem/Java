@@ -22,6 +22,7 @@ public class ForEach {
     System.out.println("---------------------------");
 
     int[] numaralar = {15, 250, 120, 85};
+
     for (int numara : numaralar){
       System.out.println(numara +numara*20/100);
     }

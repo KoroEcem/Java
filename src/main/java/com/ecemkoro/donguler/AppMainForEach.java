@@ -1,6 +1,6 @@
 package com.ecemkoro.donguler;
 
-public class AppMain {
+public class AppMainForEach {
   public static void main(String[] args) {
      /*
     int i = 0;

@@ -22,7 +22,6 @@ public class Degiskenler {
     System.out.println("My float: " + myFloat);
     System.out.println("My boolean: " + myBoolean);
 
-
     System.out.println("-----------------------------");
 
     // İlkel Olmayan Tipler
@@ -43,7 +42,6 @@ public class Degiskenler {
     System.out.println("My Double: " + myDouble2);
     System.out.println("My Float: " + myFloat2);
     System.out.println("My Boolean: " + myBoolean2);
-
 
   }
 }
