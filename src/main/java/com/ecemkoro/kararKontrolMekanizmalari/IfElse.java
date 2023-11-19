@@ -7,9 +7,9 @@ public class IfElse {
     System.out.println("IF ELSE");
 
     if (1<50){
-      System.out.println("EVET");
+      System.out.println("EVET UYGUNDUR");
     } else {
-      System.out.println("HAYIR");
+      System.out.println("HAYIR UYGUNDUR");
     }
 
 
