@@ -97,7 +97,7 @@ public class IfElse {
 
     while (true) {
       System.out.print("Adayın sağlık durumu uygun mu? (EVET/HAYIR): ");
-      saglikDurumuCevabi = scanner.next().trim().toUpperCase();
+      saglikDurumuCevabi = scanner.next().trim().toUpperCase(); // Bu satır, kullanıcının girdiğini alır, boşlukları kaldırır ve tüm harfleri büyük harfe çevirir.
       if (saglikDurumuCevabi.equals("EVET") || saglikDurumuCevabi.equals("HAYIR")) {
         break;
       } else {
