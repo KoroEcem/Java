@@ -80,7 +80,7 @@ public class IfElse {
     while (true) {
       System.out.print("Lütfen adayın yaşını giriniz: ");
       if (scanner.hasNextInt()) {   // if (scanner.hasNextInt()) kontrolü, girilen değerin bir tamsayı (int) olup olmadığını kontrol eder.
-        adayinYasi = scanner.nextInt(); // adayinYasi = scanner.nextInt(); satırı, girilen tamsayıyı adayinYasi değişkenine atar.
+        adayinYasi = scanner.nextInt(); // Girilen tamsayıyı adayinYasi değişkenine atar.
         if (adayinYasi >= 0) {
           break;
         } else {
@@ -88,7 +88,7 @@ public class IfElse {
         }
       } else {
         System.out.println("Geçersiz giriş. Lütfen bir sayı giriniz.");
-        scanner.next(); // Geçersiz girişleri temizler
+        scanner.next(); // Geçersiz girişleri temizler.
       }
     }
 
@@ -97,7 +97,7 @@ public class IfElse {
 
     while (true) {
       System.out.print("Adayın sağlık durumu uygun mu? (EVET/HAYIR): ");
-      saglikDurumuCevabi = scanner.next().trim().toUpperCase(); // Bu satır, kullanıcının girdiğini alır, boşlukları kaldırır ve tüm harfleri büyük harfe çevirir.
+      saglikDurumuCevabi = scanner.next().trim().toUpperCase(); // Kullanıcının girdiğini alır, boşlukları kaldırır ve tüm harfleri büyük harfe çevirir.
       if (saglikDurumuCevabi.equals("EVET") || saglikDurumuCevabi.equals("HAYIR")) {
         break;
       } else {
